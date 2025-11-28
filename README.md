@@ -1,58 +1,58 @@
 # bastketball
 🏀 Basketball Score App
 
-Aplicación Android para gestionar el marcador de un partido de baloncesto. Proyecto del primer trimestre usando Views, Layouts, Intents y Data Binding.
+## Aplicación Android para gestionar el marcador de un partido de baloncesto. Proyecto del primer trimestre usando Views, Layouts, Intents y Data Binding.
 
 📌 Descripción
 
 Aplicación móvil para llevar el marcador de un partido de baloncesto en tiempo real. Incluye dos pantallas:
 
-MainActivity: Pantalla principal con botones para sumar y restar puntos.
+- MainActivity: Pantalla principal con botones para sumar y restar puntos.
 
-ScoreActivity: Pantalla que muestra el resultado final y quién ganó.
+- ScoreActivity: Pantalla que muestra el resultado final y quién ganó.
 
 🚀 Funcionalidades
-MainActivity
+## MainActivity
 
-Marcadores para equipos Local y Visitante
+- Marcadores para equipos Local y Visitante
 
-Botones +1 y +2 (verde)
+- Botones +1 y +2 (verde)
 
-Botón -1 (rojo), no permite negativos
+- Botón -1 (rojo), no permite negativos
 
-Botón Reset para volver a 0
+- Botón Reset para volver a 0
 
-Botón para ver resultados finales
+- Botón para ver resultados finales
 
-Compatible con vertical y horizontal
+- Compatible con vertical y horizontal
 
-ScoreActivity
+## ScoreActivity
 
-Muestra el marcador final "X - Y"
+- Muestra el marcador final "X - Y"
 
-Indica quién ganó o si fue empate
+- Indica quién ganó o si fue empate
 
-Botón para volver al inicio
+- Botón para volver al inicio
 
-Diseño adaptado a ambas orientaciones
+- Diseño adaptado a ambas orientaciones
 
-🛠️ Tecnologías
+## 🛠️ Tecnologías
 
-Kotlin 2.2.0
+- Kotlin 2.2.0
 
-Data Binding (sin findViewById)
+- Data Binding (sin findViewById)
 
-ConstraintLayout
+- ConstraintLayout
 
-CardView
+- CardView
 
-Explicit Intents
+- Explicit Intents
 
-Vector Drawables
+- Vector Drawables
 
-Strings en strings.xml
+- Strings en strings.xml
 
-📁 Estructura del Proyecto
+## 📁 Estructura del Proyecto
 app/
 ├── src/main/
 │   ├── java/com/example/basketball/
